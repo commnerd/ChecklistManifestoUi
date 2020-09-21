@@ -1,13 +1,12 @@
-.anchor:after {
-    content: '\2807';
+.anchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
 
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: bold;
-    color: black;
-
-    height: 10vh;
-    font-size: 10vh;
-    line-height: 10vh;
+    &:after {
+        content: '\2807';
+        text-decoration: bold;
+        color: black;
+    }
 }

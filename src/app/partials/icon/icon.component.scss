@@ -1,0 +1,11 @@
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+
+    &:after {
+        text-decoration: bold;
+        color: black;
+    }
+}
