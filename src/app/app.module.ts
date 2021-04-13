@@ -1,6 +1,6 @@
 // Angular libraries
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
 // 3rd Party Libraries
@@ -24,6 +24,7 @@ import { AppComponent } from './app.component';
     LineComponent
   ],
   imports: [
+    ReactiveFormsModule,
     FontAwesomeModule,
     BrowserModule,
     FormsModule

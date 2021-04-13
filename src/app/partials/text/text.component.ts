@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Output, Input, OnInit, EventEmitter } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
     selector: 'app-text',
@@ -6,12 +7,13 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./text.component.scss']
 })
 export class TextComponent implements OnInit {
+    @Input() group: FormGroup;
 
-    text : string = '';
+    text: FormControl = new FormControl('');
 
-    constructor() { }
+    constructor() {}
 
     ngOnInit(): void {
+        this.group.setControl('text', this.text);
     }
-
 }

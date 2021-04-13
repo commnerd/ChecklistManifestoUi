@@ -1,8 +1,8 @@
 <div class="square">
     <div class="cb-content">
-        <label [for]="slug">
-            <input [type]="type" [id]="slug" [name]="slug" [(ngModel)]="checked" class="form-control">
-            <span class="label-text"><ng-content></ng-content></span>
+        <label>
+            <input type="checkbox" class="form-control" [ngModel]="checked.value" (ngModelChange)="checked.setValue($event)" />
+            <span class="label-text"></span>
         </label>
     </div>
 </div>
