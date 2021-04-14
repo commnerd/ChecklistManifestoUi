@@ -122,6 +122,13 @@
   resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-9.1.12.tgz#1c9c1a792be4b52b196cab1e5c88bd319b60716d"
   integrity sha512-tphpf9QHnOPoL2Jl7KpR+R5aHNW3oifLEmRUTajJYJGvo1uzdUDE82+V9OGOinxJsYseCth9gYJhN24aYTB9NA==
 
+"@angular/cdk@9.2.4":
+  version "9.2.4"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-9.2.4.tgz#8413958bd275e4c34be3b96f56444671dd30ba93"
+  integrity sha512-iw2+qHMXHYVC6K/fttHeNHIieSKiTEodVutZoOEcBu9rmRTGbLB26V/CRsfIRmA1RBk+uFYWc6UQZnMC3RdnJQ==
+  optionalDependencies:
+    parse5 "^5.0.0"
+
 "@angular/cli@~9.1.1":
   version "9.1.12"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-9.1.12.tgz#c6e41c80c387200766fc52a6b42fde869dcc0cef"
@@ -181,6 +188,11 @@
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-9.1.12.tgz#e7e10f72f84f0787551424ad86279436e0b5edbe"
   integrity sha512-WVA/eh3fzjx0apOzkKot4YRRUsGkHj50zFQWrAOMgivGaj1YVrvhf+m3hpglj5fn/BkLiFDl8RT0wAE8z9X+gQ==
 
+"@angular/elements@9.1.12":
+  version "9.1.12"
+  resolved "https://registry.yarnpkg.com/@angular/elements/-/elements-9.1.12.tgz#83198f446d46287c22a6ac48f4d360f8622fd35e"
+  integrity sha512-0zjGlx2HxRWr4BiGfS9lY0i/MDfe2u3evn37svmTw72UmLsfaAR7XBa+5W2chgPCb5/1LyQAY/h02tsUEFlvYA==
+
 "@angular/forms@~9.1.1":
   version "9.1.12"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-9.1.12.tgz#8ae7ac480031e1e4097eeff9b45f5e6d2cce6b7c"
@@ -190,6 +202,11 @@
   version "9.1.12"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-9.1.12.tgz#c61392c0615654810cf99ee7ff46335bd0f2660b"
   integrity sha512-0qfIAn5fP5lD+JW6il5HBHGS89rv+idRv5aooDkHqBhuBo4V2VuB1wNy5eP49GZbHKMW1xPAzv1MqeMdk+zwQA==
+
+"@angular/material@9.2.4":
+  version "9.2.4"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-9.2.4.tgz#2666ef606fbb88d60f8e2f18c5e4f94a3dd572d8"
+  integrity sha512-LkoTXE6B0slvMhvfZDdPWaz4yaYLkaAp5VSPunI9pxGsPxzqEV9e210wC1/sjG/76Nk8Ep7/2z9XKac8Q9bMwA==
 
 "@angular/platform-browser-dynamic@~9.1.1":
   version "9.1.12"
@@ -3120,6 +3137,11 @@ dns-txt@^2.0.2:
   integrity sha1-uR2Ab10nGI5Ks+fRB9iBocxGQrY=
   dependencies:
     buffer-indexof "^1.0.0"
+
+document-register-element@^1.7.2:
+  version "1.14.10"
+  resolved "https://registry.yarnpkg.com/document-register-element/-/document-register-element-1.14.10.tgz#a7bd025e6b73bd827fec2d8e90aba755e99387f5"
+  integrity sha512-w5UA37hEIrs+9pruo2yR5UD13c4UHDlkqqjt4qurnp7QsBI9b1IOi8WXUim+aCqKBsENX3Z/cso7XMOuwJH1Yw==
 
 dom-serialize@^2.2.0:
   version "2.2.1"
@@ -6201,6 +6223,11 @@ parse5@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
   integrity sha512-VrZ7eOd3T1Fk4XWNXMgiGBK/z0MG48BWG2uQNU4I72fkQuKUTZpl+u9k+CxEG0twMVzSmXEEz12z5Fnw1jIQFA==
+
+parse5@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.1.tgz#f68e4e5ba1852ac2cadc00f4555fff6c2abb6178"
+  integrity sha512-ugq4DFI0Ptb+WWjAdOK16+u/nHfiIrcE+sh8kZMaM0WllQKLI9rOUq6c2b7cwPkXdzfQESqvoqK6ug7U/Yyzug==
 
 parseqs@0.0.5:
   version "0.0.5"

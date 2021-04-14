@@ -1,1 +1,1 @@
-<input type="text" class="form-control" [ngModel]="text.value" (ngModelChange)="text.setValue($event)" />
+<input type="text" class="form-control" name="{{ name }}[{{ lineIndex }}].text" [ngModel]="text.value" (ngModelChange)="text.setValue($event)" />

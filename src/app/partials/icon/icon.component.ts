@@ -16,6 +16,10 @@ import {
 export class IconComponent implements OnInit {
 
   @Input() group: FormGroup
+
+  @Input() name: string;
+
+  @Input() lineIndex: number;
   
   icons: IconDefinition[] = [
     null,

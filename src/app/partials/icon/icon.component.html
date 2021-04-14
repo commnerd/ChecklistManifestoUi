@@ -1,3 +1,4 @@
 <span class="icon" (click)="incIndex()">
     <fa-icon *ngIf="icons[icon.value] != null" [icon]="icons[icon.value]"></fa-icon>
+    <input type="hidden" name="{{ name }}[{{ lineIndex }}].icon" value="{{ icon.value }}" />
 </span>

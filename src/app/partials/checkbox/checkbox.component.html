@@ -1,7 +1,7 @@
 <div class="square">
     <div class="cb-content">
         <label>
-            <input type="checkbox" class="form-control" [ngModel]="checked.value" (ngModelChange)="checked.setValue($event)" />
+            <input type="checkbox" name="{{ name }}[{{ lineIndex }}].checked" class="form-control" [ngModel]="checked.value" (ngModelChange)="checked.setValue($event)" />
             <span class="label-text"></span>
         </label>
     </div>

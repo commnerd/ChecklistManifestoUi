@@ -12,6 +12,10 @@ export class CheckboxComponent implements OnInit {
 
     @Input() group: FormGroup
 
+    @Input() name: string;
+
+    @Input() lineIndex: number;
+
     constructor() { }
 
     ngOnInit(): void {

@@ -14,6 +14,8 @@ export class LineComponent implements OnInit, OnDestroy {
 
   @Input() removeLine: Function;
 
+  @Input() name: string;
+
   private subscription: Subscription;
 
   ngOnInit(): void {

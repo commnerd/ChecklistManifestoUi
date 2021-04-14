@@ -1,3 +1,13 @@
-<form class="container-fluid">
-    <app-line [group]="line" [index]="i" [removeLine]="removeLine.bind(this)" *ngFor="let line of list.controls; let i = index;"></app-line>
-</form>
+<div class="container-fluid">
+    <div cdkDropList (cdkDropListDropped)="drop($event)" class="col-12 drop-list">
+        <app-line *ngFor="let line of list.controls; index as i;"
+            cdkDrag
+            class="line"
+            [name]="name"
+            [group]="line"
+            [index]="i"
+            [removeLine]="removeLine.bind(this)"
+        ></app-line>
+        <div class="line-placeholder" *cdkDragPlaceholder></div>
+    </div>
+</div>

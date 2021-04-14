@@ -9,6 +9,10 @@ import { FormControl, FormGroup } from '@angular/forms';
 export class TextComponent implements OnInit {
     @Input() group: FormGroup;
 
+    @Input() name: string;
+
+    @Input() lineIndex: number;
+
     text: FormControl = new FormControl('');
 
     constructor() {}

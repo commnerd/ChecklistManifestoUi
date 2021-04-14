@@ -13,6 +13,8 @@ import { IconComponent } from './partials/icon/icon.component';
 import { TextComponent } from './partials/text/text.component';
 import { LineComponent } from './partials/line/line.component';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -24,12 +26,16 @@ import { AppComponent } from './app.component';
     LineComponent
   ],
   imports: [
+    BrowserAnimationsModule,
     ReactiveFormsModule,
     FontAwesomeModule,
+    DragDropModule,
     BrowserModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [AppComponent],
+  entryComponents: [AppComponent],
 })
 export class AppModule { }
